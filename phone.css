@@ -1,0 +1,77 @@
+.first-section {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+    background-color: #23272A;
+    line-height : 1.5;
+    padding: 2%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+
+
+.second-section {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+    background-color: #2C2F33;
+    line-height : 1.5;
+    padding: 2%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.contact-section {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+    background-color: #23272A;
+    line-height : 1.5;
+    padding: 2%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+
+
+.credit-section {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+    background-color: #2C2F33;
+    line-height : 1;
+    padding: 2%;
+}
+
+
+
+.a-credit{
+    color: #FFFFFF;
+    
+}
+
+html {
+    background-color: #060833;
+}
+
