@@ -1,26 +1,69 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Voyage Ecosse</title>
+    <meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>The-long-girafe</title>
 </head>
-<body onload="alert_on_load()">
-    <h1>Site en dev ! Merci</h1>
-    <label>Code source du projet :</label> <a href="https://github.com/ImLikeTrain/EcosseWebsite/">https://github.com/ImLikeTrain/EcosseWebsite/</a>
-
-    <script>
-
-        function alert_on_load(){
-
-            alert("Site en maintenance !")
-
-        }
 
 
-    </script>
+
+<script>
+
+    function isMobileDevice() { 
+           if( navigator.userAgent.match(/iPhone/i)
+           || navigator.userAgent.match(/webOS/i)
+           || navigator.userAgent.match(/Android/i)
+           || navigator.userAgent.match(/iPad/i)
+           || navigator.userAgent.match(/iPod/i)
+           || navigator.userAgent.match(/BlackBerry/i)
+           || navigator.userAgent.match(/Windows Phone/i)
+           ){
+               document.head.innerHTML = '<meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>The-long-girafe</title><link rel="stylesheet" href="phone.css">';
+            }
+           else {
+               document.head.innerHTML = '<meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>The-long-girafe</title><link rel="stylesheet" href="ordi.css">';  
+            }
+    }
+    
 
 
+</script>
+
+
+<body onload="isMobileDevice()">
+
+   <section class="first-section">
+        <h1>Voyage en Ecosse</h1>
+        <p>Nebulas per civili clarae relicto civili aestimati relicto et per licentia aliis damnabantur multatione laribus per nebulas in damnabantur alii sibi extorres praeter timebatur hoc crudelitati nebulas victitabant actique aliis nullo indulta stipe et pars per noxii pars iam praeter opulentae iustoque per lacrimas in hoc claudebantur clarae noxii bonorum nullo claudebantur puniti tamquam quidam aestimati iam extorres lacrimas licentia multatione in civili ad quidam claudebantur necati timebatur voluntatem extorres cruentam bonorum multatione tamquam bonorum licentia alii.</p>
+
+
+   </section>
+
+   <section class="second-section">
+        <h1>Financement</h1>
+
+        <label for="" id="progress-label">0 000 / 0 000 €</label>
+
+        <p>Nebulas per civili clarae relicto civili aestimati relicto et per licentia aliis damnabantur multatione laribus per nebulas in damnabantur alii sibi extorres praeter timebatur hoc crudelitati nebulas victitabant actique aliis nullo indulta stipe et pars per noxii pars iam praeter opulentae iustoque per lacrimas in hoc claudebantur clarae noxii bonorum nullo claudebantur puniti tamquam quidam aestimati iam extorres lacrimas licentia multatione in civili ad quidam claudebantur necati timebatur voluntatem extorres cruentam bonorum multatione tamquam bonorum licentia alii.</p>
+
+    </section>
+
+
+    <section class="contact-section">
+
+        <h1>Contact</h1>
+
+        <p>Nebulas per civili clarae relicto civili aestimati relicto et per licentia aliis damnabantur multatione laribus per nebulas in damnabantur alii sibi extorres praeter timebatur hoc crudelitati nebulas victitabant actique aliis nullo indulta stipe et pars per noxii pars iam praeter opulentae iustoque per lacrimas in hoc claudebantur clarae noxii bonorum nullo claudebantur puniti tamquam quidam aestimati iam extorres lacrimas licentia multatione in civili ad quidam claudebantur necati timebatur voluntatem extorres cruentam bonorum multatione tamquam bonorum licentia alii.</p>
+
+        <label for="">Contact : email-go-email@email.fr</label>
+    </section>
+
+
+
+
+    <section class="credit-section">
+        <label for="">Credit <a href="www.the-long-girafe.tk" target="_blank" class="a-credit">www.the-long-girafe.tk</a><br> Aucun droit reservé ©<br> Code source sur github :) <br> pour améliorer le site : contact-email@email.fr</label>
+
+    </section>
 </body>
 </html>
